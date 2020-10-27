@@ -1,0 +1,122 @@
+form {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  margin-top: 1em;
+}
+
+label {
+  padding-bottom: 1em;
+}
+
+label:nth-last-child(2) {
+  padding-bottom: 2em;
+}
+
+input {
+  width: 100%;
+  line-height: 1.5em;
+}
+
+input:focus {
+  outline: none;
+  border: 2px solid black;
+}
+
+._2B2S5mGbjMPtg7Uh0aa7W6 {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -ms-flex-pack: center;
+      justify-content: center;
+}
+
+._2B2S5mGbjMPtg7Uh0aa7W6 button {
+  width: 6em;
+  height: 2em;
+  margin: 0 auto;
+  cursor: pointer;
+  border: none;
+  background: #767fff;
+  border-radius: 6px;
+  font-size: 1em;
+}
+
+._2B2S5mGbjMPtg7Uh0aa7W6 button:hover {
+  background: #4551ff;
+}
+
+._2B2S5mGbjMPtg7Uh0aa7W6 button:focus {
+  outline: none;
+  border: 2px solid black;
+}
+
+.k1OudVlobucx8ll9jEVGf {
+  background: #ffffff;
+  border-radius: 8px;
+  margin-top: 1em;
+  padding: 1em;
+  width: 22em;
+  box-shadow: 0px 4px 12px rgba(66, 0, 247, 0.1);
+}
+
+._2AVCr5FYU4BS2VJmw7yUsx {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -ms-flex-pack: end;
+      justify-content: flex-end;
+}
+
+._2AVCr5FYU4BS2VJmw7yUsx button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  padding: 0 0 0.5em 0.5em;
+}
+
+._2AVCr5FYU4BS2VJmw7yUsx button:focus {
+  outline: none;
+}
+
+._33uqnq76g-4CtEfpko0uH9 {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+}
+
+h2 {
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+  color: #1c1c1c;
+}
+
+body {
+  background-color: #e8efff;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+._37MJ1xvRzfDb-7MwXjBbO4 {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -ms-flex-pack: space-evenly;
+      justify-content: space-evenly;
+}
+
