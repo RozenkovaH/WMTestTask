@@ -1,0 +1,50 @@
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 1em;
+}
+
+label {
+  padding-bottom: 1em;
+}
+
+label:nth-last-child(2) {
+  padding-bottom: 2em;
+}
+
+input {
+  width: 100%;
+  line-height: 1.5em;
+}
+
+input:focus {
+  outline: none;
+  border: 2px solid black;
+}
+
+.btnContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.btnContainer button {
+  width: 6em;
+  height: 2em;
+  margin: 0 auto;
+  cursor: pointer;
+  border: none;
+  background: #767fff;
+  border-radius: 6px;
+  font-size: 1em;
+}
+
+.btnContainer button:hover {
+  background: #4551ff;
+}
+
+.btnContainer button:focus {
+  outline: none;
+  border: 2px solid black;
+}

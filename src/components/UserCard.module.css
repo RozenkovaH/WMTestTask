@@ -1,0 +1,25 @@
+.userCard {
+  background: #ffffff;
+  border-radius: 8px;
+  margin-top: 1em;
+  padding: 1em;
+  width: 22em;
+  box-shadow: 0px 4px 12px rgba(66, 0, 247, 0.1);
+}
+
+.btnContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.btnContainer button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  padding: 0 0 0.5em 0.5em;
+}
+
+.btnContainer button:focus {
+  outline: none;
+}
